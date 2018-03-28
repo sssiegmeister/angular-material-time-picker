@@ -401,8 +401,8 @@
             controllerAs: 'timepicker',
             clickOutsideToClose: true,
             template: '<md-dialog aria-label="" class="mdp-timepicker" ng-class="{ \'portrait\': !$mdMedia(\'gt-xs\') }">' +
-              '<md-dialog-content layout-gt-xs="row" layout-wrap>' +
-              '<md-toolbar layout-gt-xs="column" layout-xs="row" layout-align="center center" flex class="mdp-timepicker-time md-hue-1 md-primary">' +
+              '<md-dialog-content layout-gt-xs="column" layout-wrap>' +
+              '<md-toolbar layout-gt-xs="row" layout-xs="row" layout-align="center center" flex class="mdp-timepicker-time md-hue-1 md-primary">' +
               '<div class="mdp-timepicker-selected-time">' +
               '<span ng-class="{ \'active\': timepicker.currentView == timepicker.VIEW_HOURS }" ng-click="timepicker.currentView = timepicker.VIEW_HOURS">{{ timepicker.hours() }}</span>:' +
               '<span ng-class="{ \'active\': timepicker.currentView == timepicker.VIEW_MINUTES }" ng-click="timepicker.currentView = timepicker.VIEW_MINUTES">{{ timepicker.minutes() }}</span>' +

@@ -417,7 +417,7 @@ mdp-calendar {
   font-size: 3rem;
 }
 .mdp-timepicker:not(.portrait) .mdp-timepicker-time {
-  width: 160px;
+  width: 100%;
 }
 .mdp-timepicker.portrait .mdp-timepicker-selected-time {
   font-size: 4rem;
